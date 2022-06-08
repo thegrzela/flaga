@@ -1,0 +1,64 @@
+
+ html,body {
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2022/03/01/16/12/peace-7041597_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: #051f35; */
+    /* background-blend-mode: screen; */
+}
+
+
+* {
+    color: white;
+}
+
+
+.button {
+    display: flex;
+}
+
+.heading {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+
+}
+
+.title {
+    text-align: center;
+    color: #3a62e6;
+    font-size: 80px;
+    font-family: 'Courier New';
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bradley Hand ITC';
+}
+
+.register {
+    width: 150px;
+    height: 50px;
+    font-weight: bolt;
+    font-family: 'Kristen ITC';
+    margin: 50px auto;
+    display: block;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    /*transition: background-color 1000ms; color 1000ms;*/
+
+}
+.register:hover{
+    background-color: white;
+    color: #222222;
+    cursor: pointer;
+    /*transition: background-color 1000ms; color 1000ms;*/
+}
